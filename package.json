@@ -1,6 +1,6 @@
 {
-  "name": "grunt-cordova-config",
-  "version": "0.1.3",
+  "name": "grunt-cordova-config-2",
+  "version": "0.2.0",
   "description": "Generates cordova config.xml file",
   "repository": {
     "type": "git",
@@ -8,9 +8,11 @@
   },
   "author": {
     "name": "Andrey Shustariov",
-    "email": "shustarev.andrey@gmail.com",
-    "url": ""
+    "email": "shustarev.andrey@gmail.com"
   },
+  "contributors": [{
+	  "name":"Kyle Kirbatski"
+  }],
   "keywords": [
     "gruntplugin",
     "cordova",
