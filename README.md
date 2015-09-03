@@ -2,6 +2,10 @@
 
 > Generates cordova config.xml file
 
+## Credits
+
+This was originally written by Andrey Shustariov, but I noticed some shortcomings in the plugin and decided to add them. I ended up rewritting about 98% of the code in ES6. The updates allow for new configuration properties to be easily added on the fly and allow for other nodes to contain other properties that the root node can have. For example, the platforms node isn't just limited to icon, splash, and preference. But now that limitation no longer exists.
+
 [![Build Status](https://travis-ci.org/shustariov-andrey/grunt-cordova-config.svg?branch=master)](https://travis-ci.org/shustariov-andrey/grunt-cordova-config) [![Dependency Status](https://david-dm.org/shustariov-andrey/grunt-cordova-config.svg)](https://david-dm.org/shustariov-andrey/grunt-cordova-config) [![devDependency Status](https://david-dm.org/shustariov-andrey/grunt-cordova-config/dev-status.svg)](https://david-dm.org/shustariov-andrey/grunt-cordova-config#info=devDependencies)
 
 
