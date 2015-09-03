@@ -31,9 +31,12 @@
     "load-grunt-tasks": "~1.0.0"
   },
   "scripts": {
-    "test": "grunt test"
+    "test": "grunt test",
+	"compile": "babel src -e 0 -d lib",
+	"compile-watch": "babel src -e 0 -d lib -w"
   },
   "dependencies": {
+    "deepmerge": "^0.2.10",
     "js2xmlparser": "^0.1.5"
   }
 }
